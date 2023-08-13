@@ -1,10 +1,4 @@
 /*!
-	Copyright (c) 2018 Jed Watson.
-	Licensed under the MIT License (MIT), see
-	http://jedwatson.github.io/classnames
-*/
-
-/*!
  * Check to see if the MemoizeMap has recorded a result of the two operands
  *
  * @param {Mixed} leftHandOperand
