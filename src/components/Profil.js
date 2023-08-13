@@ -20,7 +20,7 @@ const Profil=()=>{
                 <div className='h4 text-white user-select-none'>{Data.profil[0]}, <span className="h6 px-2">{Data.profil[1]}</span></div>
                 <div className='h1 text-warning user-select-none'>MOHAMED OUBIDA</div>
                 <div className='h5 text-light user-select-none'>{Data.profil[2]}</div>
-                <div className='h4 text-info user-select-none'>
+                <div className='h5 text-info user-select-none'>
                 <Typewriter options={{
                     autoStart: true,
                     loop: true,
@@ -31,7 +31,7 @@ const Profil=()=>{
                 <div className='py-4'><a href='fichiers/CV-MOUBIDA.pdf' target="_blank" className='btn btn-warning px-4 py-2'>{Data.profil[3]}</a></div>
             </div>
             <div className='col-5 animate__animated animate__zoomIn'>
-                <img src="images/44.png" alt='profil' className='rounded w-100 p-5'/>
+                <img src="images/44.png" alt='profil' className='rounded w-100 p-lg-5'/>
             </div>
         </div>
     </div>
