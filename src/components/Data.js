@@ -6,10 +6,10 @@ export const projects = [
     {Id:2,Name:"Nom 2",Image:"images/Project_images/image_projet_2.png",Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit sit iure repellat aliquam dignissimos omnis ea fugiat, placeat eligendi vel voluptates, nobis perspiciatis sed maiores rerum assumenda. Odio, voluptates?",
     LanguageUtilise:"langage 1 | langage 2 | langage 3",Url:""},
 
-    {Id:3,Name:"Nom 3",Image:"images/Project_images/image_projet_1.png",Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit sit iure repellat aliquam dignissimos omnis ea fugiat, placeat eligendi vel voluptates, nobis perspiciatis sed maiores rerum assumenda. Odio, voluptates?",
+    {Id:3,Name:"Nom 3",Image:"images/Project_images/image_projet_3.png",Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit sit iure repellat aliquam dignissimos omnis ea fugiat, placeat eligendi vel voluptates, nobis perspiciatis sed maiores rerum assumenda. Odio, voluptates?",
     LanguageUtilise:"langage 1 | langage 2 | langage 3",Url:""},
 
-    {Id:4,Name:"Nom 4",Image:"images/Project_images/image_projet_2.png",Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit sit iure repellat aliquam dignissimos omnis ea fugiat, placeat eligendi vel voluptates, nobis perspiciatis sed maiores rerum assumenda. Odio, voluptates?",
+    {Id:4,Name:"Nom 4",Image:"images/Project_images/image_projet_4.png",Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit sit iure repellat aliquam dignissimos omnis ea fugiat, placeat eligendi vel voluptates, nobis perspiciatis sed maiores rerum assumenda. Odio, voluptates?",
     LanguageUtilise:"langage 1 | langage 2 | langage 3",Url:""}
 ];
 export const DataProject = [
