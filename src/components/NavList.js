@@ -20,7 +20,7 @@ const NavList=()=>{
     // console.log(Langue);
     return <nav className="navbar navbar-expand-md navbar-light bg-black bg-light-sm py-2 bg-opacity-50">
             <div className='container'>
-                <a href='/' className='navbar-brand text-light fs-1'>
+                <a href='/Portfolio' className='navbar-brand text-light fs-1'>
                     <img src='images/Mohamed.svg' alt='error'/>
                 </a>
 
