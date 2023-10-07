@@ -20,7 +20,7 @@ const Projects=()=>{
       autoplaySpeed={{ delay: 500 }}
     >
                 {projects.map((e)=>{return <SwiperSlide key={e.Id} className='w-100'>
-                    <a href='#' rel="noreferrer" target='_blank' className='w-100 h-80 rounded card-img-top'>
+                    <a href='/Portfolio' rel="noreferrer" target='_blank' className='w-100 h-80 rounded card-img-top'>
                         <img src={e.Image} alt={e.Name} className='w-100'/>
                     </a>
                 </SwiperSlide>})}
