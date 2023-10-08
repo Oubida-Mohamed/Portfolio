@@ -1,30 +1,37 @@
 
 import React from 'react';
 import { projects } from "./Data";
-
+import '../App.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/swiper-bundle.min.css'; // Import Swiper styles
 import 'swiper/css';
+// import {Navigation, Pagination} from 'swiper';
+// import 'swiper-bundle.min.mjs';
+// import SwiperCore, { Navigation, Pagination } from 'swiper';
 
 const Projects=()=>{
+    // console.log(window.matchMedia("(max-width: 576px)").matches);
 
-
-    return <div className="container d-lg-flex" id="projets" style={{padding:"100px 20px"}}>
-    <Swiper navigation={true}
-      spaceBetween={100}
-      slidesPerView={1}
-      loop={true}
-      pagination={{ clickable: true }}
-      autoplay={true}
-      autoplaySpeed={{ delay: 500 }}
-    >
-                {projects.map((e)=>{return <SwiperSlide key={e.Id} className='w-100'>
-                    <a href='/Portfolio' rel="noreferrer" target='_blank' className='w-100 h-80 rounded card-img-top'>
-                        <img src={e.Image} alt={e.Name} className='w-100'/>
-                    </a>
-                </SwiperSlide>})}
-    </Swiper>
+    return <div className='padding_Projects' id="projets">
+            <div className="container d-lg-flex" >
+            <Swiper 
+            spaceBetween={25}
+            slidesPerView={(window.matchMedia("(max-width: 576px)").matches?1:2)}
+            loop={true}
+            pagination={{ clickable: true }}
+            autoplay={true}
+            >
+                        {projects.map((e)=>{return <SwiperSlide key={e.Id} className='width_Projets'>
+                            <a href='/Portfolio'  target='_blank' className='w-100 h-80 rounded card-img-top'>
+                                <img src={e.Image} alt={e.Name} className='width_Projets'/>
+                            </a>
+                        </SwiperSlide>})}
+            </Swiper>
+            
+        </div>
+        <div className='swiper_Hand'>
+            <i className="bi bi-hand-index-thumb text-warning"></i>
+        </div>
     </div>
     
 }

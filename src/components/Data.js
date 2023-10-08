@@ -10,6 +10,12 @@ export const projects = [
     LanguageUtilise:"langage 1 | langage 2 | langage 3",Url:""},
 
     {Id:4,Name:"Nom 4",Image:"images/Project_images/image_projet_4.png",Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit sit iure repellat aliquam dignissimos omnis ea fugiat, placeat eligendi vel voluptates, nobis perspiciatis sed maiores rerum assumenda. Odio, voluptates?",
+    LanguageUtilise:"langage 1 | langage 2 | langage 3",Url:""},
+
+    {Id:5,Name:"Nom 5",Image:"images/Project_images/image_projet_5.png",Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit sit iure repellat aliquam dignissimos omnis ea fugiat, placeat eligendi vel voluptates, nobis perspiciatis sed maiores rerum assumenda. Odio, voluptates?",
+    LanguageUtilise:"langage 1 | langage 2 | langage 3",Url:""},
+
+    {Id:6,Name:"Nom 6",Image:"images/Project_images/image_projet_6.png",Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit sit iure repellat aliquam dignissimos omnis ea fugiat, placeat eligendi vel voluptates, nobis perspiciatis sed maiores rerum assumenda. Odio, voluptates?",
     LanguageUtilise:"langage 1 | langage 2 | langage 3",Url:""}
 ];
 export const DataProject = [

@@ -1,0 +1,84 @@
+@keyframes fadeInCenter {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes swipeUpPhone {
+0% {
+  transform: translateX(-75px);
+}
+100% {
+  transform: translateX(75px);
+}
+}
+@keyframes swipeUpPc {
+0% {
+  transform: translateX(-100px);
+}
+100% {
+  transform: translateX(100px);
+}
+}
+
+
+@media (max-width: 576px) {
+    .Typewriter-font-size {
+        font-size: 1rem;
+    }
+    .padding_About{
+      padding: 135px 20px 1px ;
+    }
+    .image_width{
+      width: 50%;
+    }
+    .padding_Projects{
+      padding: 310px 20px 100px ;
+    }
+    .width_Projets{
+      width: 100%;
+    }
+    .swiper_Hand{
+      width: 100px;
+      margin-left: 40%;
+      animation: swipeUpPhone 3s infinite;
+      
+    }
+}
+
+@media (min-width: 577px){
+    .Typewriter-font-size {
+        font-size: 1.5rem;
+    }
+    .padding_About{
+      padding: 200px 20px 170px ;
+    }
+    .image_width{
+      width: 100%;
+    }
+    .padding_Projects{
+      padding: 180px 20px 40px ;
+    }
+    .width_Projets{
+      width: 100%;
+    }
+    .swiper_Hand{
+      animation: swipeUpPc 3s infinite;
+    }
+}
+
+.animated-center {
+    font-size: 4rem;
+    animation: fadeInCenter 5s linear infinite;
+}
+.swiper_Hand i{
+  font-size: 40px;
+}
+.swiper_Hand{
+  text-align: center;
+}
