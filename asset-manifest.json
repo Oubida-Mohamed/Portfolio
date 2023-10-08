@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.oi/Portfolio/static/css/main.d2539b75.css",
-    "main.js": "/github.oi/Portfolio/static/js/main.02a5c1fd.js",
-    "static/media/bootstrap-icons.woff?": "/github.oi/Portfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/github.oi/Portfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "index.html": "/github.oi/Portfolio/index.html",
-    "main.d2539b75.css.map": "/github.oi/Portfolio/static/css/main.d2539b75.css.map",
-    "main.02a5c1fd.js.map": "/github.oi/Portfolio/static/js/main.02a5c1fd.js.map"
+    "main.css": "/Portfolio/static/css/main.7c62fb03.css",
+    "main.js": "/Portfolio/static/js/main.02a5c1fd.js",
+    "static/media/bootstrap-icons.woff?": "/Portfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Portfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/Portfolio/index.html",
+    "main.7c62fb03.css.map": "/Portfolio/static/css/main.7c62fb03.css.map",
+    "main.02a5c1fd.js.map": "/Portfolio/static/js/main.02a5c1fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2539b75.css",
+    "static/css/main.7c62fb03.css",
     "static/js/main.02a5c1fd.js"
   ]
 }
